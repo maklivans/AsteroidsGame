@@ -35,4 +35,11 @@ class Spaceship extends Floater
     public void setMyPointDirection(double z) {
     	myPointDirection = z;
     }
+    public void hypserspaceeee() {
+    	myCenterX = Math.random()*500;
+    	myCenterY = Math.random()*500;
+    	myDirectionX = 0;
+    	myDirectionY = 0;
+    }
+
  }

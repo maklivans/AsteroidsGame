@@ -32,4 +32,7 @@ public void keyPressed() {
 	if (key=='d') {
 		bobby.turn(6);
 	}
+	if (key=='h') {
+		bobby.hypserspaceeee();
+	}
 }
