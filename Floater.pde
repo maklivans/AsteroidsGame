@@ -73,4 +73,19 @@ class Floater //Do NOT modify the Floater class! Make changes in the Spaceship c
     rotate(-1*dRadians);
     translate(-1*(float)myCenterX, -1*(float)myCenterY);
   }   
+  public Double getMyDirectionX() {
+      return myDirectionX;
+  }
+  public Double getMyDirectionY() {
+      return myDirectionY;
+  }
+  public Double getMyPointDirection() {
+      return myPointDirection;
+  }
+  public Double getMyCenterX() {
+      return myCenterX;
+  }
+  public Double getMyCenterY() {
+    return myCenterY;
+  }
 } 
